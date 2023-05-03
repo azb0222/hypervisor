@@ -1,0 +1,1 @@
+cmd_/home/asritha/hypervisor/kernel.ko := ld -r  -EL  -maarch64elf -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/asritha/hypervisor/kernel.ko /home/asritha/hypervisor/kernel.o /home/asritha/hypervisor/kernel.mod.o;  true

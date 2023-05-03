@@ -1,0 +1,1 @@
+cmd_/home/asritha/hypervisor/Module.symvers := sed 's/\.ko$$/\.o/' /home/asritha/hypervisor/modules.order | scripts/mod/modpost -m -a  -o /home/asritha/hypervisor/Module.symvers -e -i Module.symvers   -T -
